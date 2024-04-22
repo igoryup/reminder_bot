@@ -14,7 +14,7 @@ from common.bot_cmds_list import private
 
 ALLOWED_UPDATES = ['message, edited_message']
 
-bot = Bot('6552830361:AAF7ncJuwj0tV_H4VF2AuaRxaEYxD9OvSmE', parse_mode=ParseMode.HTML)
+bot = Bot('SECRET', parse_mode=ParseMode.HTML)
 dp = Dispatcher()
 
 dp.include_router(user_private_router)
